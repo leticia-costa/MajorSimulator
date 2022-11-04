@@ -1,82 +1,98 @@
-export const teamsObject = {
-    imperial: {
+export const teamsInitialList = [
+    {
         name: 'Imperial',
         image: 'https://major.ieb.im/images/rio2022_rmr/am/impe.png',
-        winner: false
+        rank: 23,
+        matchupWinner: false
     },
-    furia: {
+    {
         name: 'Furia',
         image: 'https://major.ieb.im/images/rio2022_rmr/am/furi.png',
-        winner: false
+        rank: 20,
+        matchupWinner: false
     },
-    eg: {
+    {
         name: 'Evil Geniuses',
         image: 'https://major.ieb.im/images/rio2022_rmr/am/eg.png',
-        winner: false
+        rank: 11,
+        matchupWinner: false
     },
-    zerozero: {
-        name: 'Zero Zero Nation',
+    {
+        name: '00Nation',
         image: 'https://major.ieb.im/images/rio2022_rmr/am/00.png',
-        winner: false
+        rank: 19,
+        matchupWinner: false
     },
-    novez: {
-        name: 'Nove z',
+    {
+        name: '9z',
         image: 'https://major.ieb.im/images/rio2022_rmr/am/9z.png',
-        winner: false
+        rank: 16,
+        matchupWinner: false
     },
-    og: {
+    {
         name: 'OG',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/og.png',
-        winner: false
+        rank: 9,
+        matchupWinner: false
     },
-    grayhound: {
+    {
         name: 'Grayhound',
         image: 'https://major.ieb.im/images/rio2022_rmr/ap/ghg.png',
-        winner: false
+        rank: 24,
+        matchupWinner: false
     },
-    ihc: {
+    {
         name: 'IHC',
         image: 'https://major.ieb.im/images/rio2022_rmr/ap/ihc.png',
-        winner: false
+        rank: 22,
+        matchupWinner: false
     },
-    vitality: {
+    {
         name: 'Vitality',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/vita.png',
-        winner: false
+        rank: 10,
+        matchupWinner: false
     },
-    fnatic: {
+    {
         name: 'Fnatic',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/fnat.png',
-        winner: false
+        rank: 21,
+        matchupWinner: false
     },
-    big: {
+    {
         name: 'BIG',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/big.png',
-        winner: false
+        rank: 13,
+        matchupWinner: false
     },
-    bne: {
+    {
         name: 'Bad News Eagles',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/bne.png',
-        winner: false
+        rank: 14,
+        matchupWinner: false
     },
-    gamerlegion: {
+    {
         name: 'GamerLegion',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/gl.png',
-        winner: false
+        rank: 17,
+        matchupWinner: false
     },
-    mouz: {
+    {
         name: 'MOUZ',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/mouz.png',
-        winner: false
+        rank: 15,
+        matchupWinner: false
     },
-    outsiders: {
+    {
         name: 'Outsiders',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/outs.png',
-        winner: false
+        rank: 18,
+        matchupWinner: false
     },
-    cloud9: {
+    {
         name: 'Cloud9',
         image: 'https://major.ieb.im/images/rio2022_rmr/eu/c9.png',
-        winner: false
+        rank: 12,
+        matchupWinner: false
     }
-}
+]

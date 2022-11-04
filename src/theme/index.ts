@@ -4,7 +4,7 @@ export const theme = {
         white: '#ffffff',
         background: '#0C1C24',
         text: '#EFEFEF',
-        card: '#BFBFBF',
+        card: '#424242',
         cardSelected: '#3D83A6'
     }
 }

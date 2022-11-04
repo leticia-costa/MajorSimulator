@@ -31,10 +31,22 @@ export const CardList = styled.div`
     align-items: center;
     margin-bottom: 3rem;
 `
+
+export const CardMatchupContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+
+export const MatchupScore = styled.span`
+    font-size: 1.5rem;
+    color: ${({theme}) => theme.color.white};
+`
+
 export const CardMatchup = styled.div`
     display: flex;
     align-items: center;
-    border: 2px solid ${({theme}) => theme.color.card};
+    border: 2px solid ${({theme}) => theme.color.cardSelected};
     border-radius: 8px;
     padding: 0.5rem;
     gap: 0.3rem;
