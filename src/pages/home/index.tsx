@@ -87,7 +87,7 @@ function createAListOfWinnersAndAListOfLosers(matchups: MatchupProps[]) {
   return (
     <ThemeProvider theme={theme}>
       <Header>
-        <h1>siMULAdor do Major</h1>
+        <h1 className='slide-top'>siMULAdor do Major</h1>
       </Header>
 
       <CardListRoundTitle>Round 1</CardListRoundTitle>
